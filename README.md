@@ -1,5 +1,9 @@
 # Package Agent
 
+> This fork is only updated for security issues and bugs with its use in [Puppet Enterprise](https://puppet.com/products/puppet-enterprise).
+> Please file bugs with [PE support](https://support.puppet.com).
+> For security issues, see [Puppet's product security policy](https://puppet.com/docs/vulnerability-submission-process).
+
 The package agent that lets you install, uninstall, update, purge and query the status of packages on your system.
 
 The package agent does not do any management of packages itself. Instead it
@@ -107,10 +111,3 @@ you can configure it in the config file using:
 ```
 plugin.package.provider = puppet
 ```
-
-## Maintenance
-
-Maintainers: Alessandro Parisi <alessandro@puppet.com>, Michael Smith
-<michael.smith@puppet.com>, Michal Ruzicka <michal.ruzicka@puppet.com>.
-
-Tickets: File bug tickets at https://tickets.puppet.com/browse/MCOP.
